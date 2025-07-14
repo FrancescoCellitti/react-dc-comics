@@ -1,9 +1,9 @@
 
 export default function Contact() {
     return (
-        <div className="container-fluid d-flex bg-primary">
+        <div className="m-0 container-fluid d-flex bg-primary">
             <div className="container d-flex justify-content-center">
-                <ul className="d-flex flex-row align-items-center text-center list-unstyled text-white gap-5">
+                <ul className="m-0 p-5 d-flex flex-row align-items-center text-center list-unstyled text-white gap-5">
                     <li><img width="50" src="./public/img/buy-comics-digital-comics.png" alt="" />Digital comics</li>
                     <li><img width="50" src="./public/img/buy-comics-merchandise.png" alt="" />dc merchandise</li>
                     <li><img width="50" src="./public/img/buy-comics-subscriptions.png" alt="" />subscription</li>
