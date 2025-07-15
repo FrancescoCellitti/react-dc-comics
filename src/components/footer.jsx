@@ -1,84 +1,88 @@
 export default function Footer() {
     return (
-        <footer className="text-white">
-            <div className="bg-dark bg-opacity-75 py-5 position-relative"
-                style={{
+        <footer className="text-white position-relative overflow-hidden">
+
+            <div className="bg-dark bg-opacity-7">
+                <div style={{
                     backgroundImage: "url('/img/footer-bg.jpg')",
-                    backgroundSize: 'contain',
-                    repeat: 'no repeat',
+                    backgroundSize: 'cover',
+                    repeat: 'no-repeat',
                     backgroundPosition: 'center',
                 }}>
+                    <div className="container d-flex flex-column flex-md-row justify-content-between" >
 
-                <div className="container d-flex flex-column flex-md-row justify-content-between" >
 
-                    {/* Colonne link */}
-                    <div className="d-flex flex-wrap">
-                        {/* Colonna 1 */}
-                        <div className="me-5">
-                            <h5 className="text-uppercase">DC Comics</h5>
-                            <ul className="list-unstyled">
-                                <li><a href="" className="text-white-50 text-decoration-none">Characters</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Comics</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Movies</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">TV</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Games</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Videos</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">News</a></li>
-                            </ul>
+                        <div className="d-flex flex-wrap my-5">
+                            <div className="me-5">
+                                <h5 className="text-uppercase">DC Comics</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="" className="text-white-50 text-decoration-none">Characters</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Comics</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Movies</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">TV</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Games</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Videos</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">News</a></li>
+                                </ul>
 
-                            <h5 className="text-uppercase mt-4">Shop</h5>
-                            <ul className="list-unstyled">
-                                <li><a href="" className="text-white-50 text-decoration-none">Shop DC</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Shop DC Collectibles</a></li>
-                            </ul>
+                                <h5 className="text-uppercase mt-4">Shop</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="" className="text-white-50 text-decoration-none">Shop DC</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Shop DC Collectibles</a></li>
+                                </ul>
+                            </div>
+
+
+                            <div className="me-5">
+                                <h5 className="text-uppercase">DC</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="" className="text-white-50 text-decoration-none">Terms Of Use</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Privacy Policy (New)</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Ad Choices</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Advertising</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Jobs</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Subscriptions</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Talent Workshops</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">CPSC Certificates</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Ratings</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Shop Help</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+
+                            <div className="me-5">
+                                <h5 className="text-uppercase">Sites</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="" className="text-white-50 text-decoration-none">DC</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">MAD Magazine</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">DC Kids</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">DC Universe</a></li>
+                                    <li><a href="" className="text-white-50 text-decoration-none">DC Power Visa</a></li>
+                                </ul>
+                            </div>
                         </div>
 
-                        {/* Colonna 2 */}
-                        <div className="me-5">
-                            <h5 className="text-uppercase">DC</h5>
-                            <ul className="list-unstyled">
-                                <li><a href="" className="text-white-50 text-decoration-none">Terms Of Use</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Privacy Policy (New)</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Ad Choices</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Advertising</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Jobs</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Subscriptions</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Talent Workshops</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">CPSC Certificates</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Ratings</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Shop Help</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">Contact Us</a></li>
-                            </ul>
-                        </div>
 
-                        {/* Colonna 3 */}
-                        <div className="me-5">
-                            <h5 className="text-uppercase">Sites</h5>
-                            <ul className="list-unstyled">
-                                <li><a href="" className="text-white-50 text-decoration-none">DC</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">MAD Magazine</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">DC Kids</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">DC Universe</a></li>
-                                <li><a href="" className="text-white-50 text-decoration-none">DC Power Visa</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                        <div>
+                            <img
+                                src="./public/img/dc-logo-bg.png"
+                                alt="DC logo background"
+                                className="position-absolute d-none d-md-block"
+                                style={{
+                                    right: '50px',
+                                    bottom: '0',
+                                    zIndex: '0'
+                                }}/>
 
-                   
-                    <div className="position-relative d-none d-md-block">
-                        <img
-                            src="./public/img/dc-logo-bg.png"
-                            alt="DC logo background"
-                            style={{ width: '300px',
-                                   zIndex: 0
-                            }}
-                            
-                        />
+                        
+                        </div>
                     </div>
                 </div>
-
-                
-                <div className="container border-top border-secondary mt-4 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+            </div>
+            
+            <div className="container-fluid bg-dark  position-relative">
+                <div className="container py-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
                     <a href="" className="btn btn-outline-primary text-white text-uppercase fw-bold px-4 mb-3 mb-md-0">Sign-Up Now!</a>
 
                     <div>
@@ -91,6 +95,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </footer>
+    </footer>
+
     );
 }
