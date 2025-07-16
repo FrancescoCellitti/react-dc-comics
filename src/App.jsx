@@ -3,6 +3,10 @@ import Header from './components/header'
 import ContentArea from './components/content_area'
 import Contact from './components/contact'
 import Footer from './components/footer'
+
+
+
+
 function App() {
   return (
     <>
@@ -15,4 +19,3 @@ function App() {
 }
 
 export default App
-
